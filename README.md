@@ -1,6 +1,6 @@
 # Jokes API
 
-[Jokes API](https://jokes-api.cyclic.app) is a simple REST API for showing a list of jokes in English and Indonesia 🏴󠁧󠁢󠁥󠁮󠁧󠁿.
+[Jokes API](https://jokes-api.cyclic.app) is a simple REST API for showing a list of jokes in English and Indonesia󠁧󠁢.
 
 ## When to use ✨
 
