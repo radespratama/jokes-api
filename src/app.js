@@ -23,6 +23,17 @@ app.get("/", (req, res) => {
       english: "/v1/en",
       indonesian: "/v1/id",
     },
+    extra: {
+      spesificEndpoint: "/v1/en/1 until 70",
+      filter: ["/v1/en?id=1&id=2"],
+      limit: ["/v1/en?_limit=20"],
+      sort: ["/v1/en?_sort=id&_order=desc"],
+      operator: {
+        like: ["/v1/en?jokes_like=pig"],
+        exclude: ["/v1/en?id_ne=4"],
+        range: ["/v1/en?id_gte=1&id_lte=4"],
+      },
+    },
     time: new Date().getTime(),
   });
 });
